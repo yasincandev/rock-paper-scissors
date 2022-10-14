@@ -1,0 +1,202 @@
+.pentagon {
+  margin-top: 8rem;
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .paper__container {
+    position: absolute;
+    bottom: 40%;
+    right: -20%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 12.5rem;
+    background-color: hsl(230, 89%, 65%);
+    box-shadow: 0px 8px 0px hsl(230deg 57% 51%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &__button {
+      background-color: white;
+      padding-top: 1.32rem;
+      padding-left: 1.7rem;
+      padding-right: 1.7rem;
+      padding-bottom: 1.32rem;
+      border-radius: 12.5rem;
+      box-shadow: inset 0px 7px 0px rgb(0 0 0 / 20%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      cursor: pointer;
+      &__img {
+        width: 3rem;
+      }
+    }
+    &:hover {
+      transform: translateY(-0.5rem);
+      box-shadow: 0px 12px 0px hsl(230deg 57% 51%);
+    }
+  }
+
+  .scissor__container {
+    position: absolute;
+    bottom: 85%;
+    left: 30%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 12.5rem;
+    background-color: hsl(40, 84%, 53%);
+    box-shadow: 0px 8px 0px hsl(39deg 88% 42%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &__button {
+      background-color: white;
+      padding-top: 1.32rem;
+      padding-left: 1.7rem;
+      padding-right: 1.7rem;
+      padding-bottom: 1.32rem;
+      border-radius: 12.5rem;
+      box-shadow: inset 0px 7px 0px rgb(0 0 0 / 20%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      cursor: pointer;
+      &__img {
+        width: 3rem;
+      }
+    }
+    &:hover {
+      transform: translateY(-0.5rem);
+      box-shadow: 0px 12px 0px hsl(39deg 88% 42%);
+    }
+  }
+  .rock__container {
+    position: absolute;
+    top: 75%;
+    right: -5%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 12.5rem;
+    background-color: hsl(349, 70%, 56%);
+    box-shadow: 0px 8px 0px hsl(349deg 71% 52%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &__button {
+      background-color: white;
+      padding-top: 1.32rem;
+      padding-left: 1.7rem;
+      padding-right: 1.7rem;
+      padding-bottom: 1.32rem;
+      border-radius: 12.5rem;
+      box-shadow: inset 0px 7px 0px rgb(0 0 0 / 20%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      cursor: pointer;
+      &__img {
+        width: 3rem;
+      }
+    }
+    &:hover {
+      transform: translateY(-0.5rem);
+      box-shadow: 0px 12px 0px hsl(349deg 71% 52%);
+    }
+  }
+  .lizard__container {
+    position: absolute;
+    top: 75%;
+    left: -5%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 12.5rem;
+    background-color: hsl(261, 72%, 63%);
+    box-shadow: 0px 8px 0px hsl(261deg 73% 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &__button {
+      background-color: white;
+      padding-top: 1.32rem;
+      padding-left: 1.7rem;
+      padding-right: 1.7rem;
+      padding-bottom: 1.32rem;
+      border-radius: 12.5rem;
+      box-shadow: inset 0px 7px 0px rgb(0 0 0 / 20%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      cursor: pointer;
+      &__img {
+        width: 3rem;
+      }
+    }
+    &:hover {
+      transform: translateY(-0.5rem);
+      box-shadow: 0px 12px 0px hsl(261deg 73% 60%);
+    }
+  }
+  .spock__container {
+    position: absolute;
+    bottom: 40%;
+    left: -20%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 12.5rem;
+    background-color: hsl(189, 58%, 57%);
+    box-shadow: 0px 8px 0px hsl(189deg 59% 53%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &__button {
+      background-color: white;
+      padding-top: 1.32rem;
+      padding-left: 1.7rem;
+      padding-right: 1.7rem;
+      padding-bottom: 1.32rem;
+      border-radius: 12.5rem;
+      box-shadow: inset 0px 7px 0px rgb(0 0 0 / 20%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      cursor: pointer;
+      &__img {
+        width: 3rem;
+      }
+    }
+    &:hover {
+      transform: translateY(-0.5rem);
+      box-shadow: 0px 12px 0px hsl(189deg 59% 53%);
+    }
+  }
+}

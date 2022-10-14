@@ -1,0 +1,285 @@
+.game {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  &__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .game__computer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-right: 60px;
+    &__text {
+      color: white;
+      font-size: 1.3rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      white-space: nowrap;
+      margin-top: 2rem;
+    }
+
+    &__choice__container {
+      border-radius: 12.5rem;
+      box-shadow: inset 0px 7px 0px rgb(0 0 0 / 20%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      padding-top: 2.88rem;
+      padding-bottom: 2.88rem;
+      padding-left: 3.2rem;
+      padding-right: 3.2rem;
+      img {
+        width: 5rem;
+      }
+    }
+    &__choice__rock {
+      top: 25%;
+      z-index: 150;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      padding-top: 1.56rem;
+      padding-left: 1.56rem;
+      padding-right: 1.56rem;
+      padding-bottom: 1.56rem;
+      border-radius: 12.5rem;
+      background-color: hsl(349, 70%, 56%);
+      box-shadow: 0px 8px 0px hsl(349deg 71% 52%);
+    }
+    &__choice__paper {
+      top: 25%;
+      z-index: 150;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      padding-top: 1.56rem;
+      padding-left: 1.56rem;
+      padding-right: 1.56rem;
+      padding-bottom: 1.56rem;
+      border-radius: 12.5rem;
+      background-color: hsl(230, 89%, 62%);
+      box-shadow: 0px 8px 0px hsl(230deg 89% 57%);
+    }
+    &__choice__scissor {
+      top: 25%;
+      z-index: 150;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      padding-top: 1.56rem;
+      padding-left: 1.56rem;
+      padding-right: 1.56rem;
+      padding-bottom: 1.56rem;
+      border-radius: 12.5rem;
+      background-color: hsl(39, 89%, 49%);
+      box-shadow: 0px 8px 0px hsl(39deg 89% 44%);
+    }
+    &__choice__lizard {
+      top: 25%;
+      z-index: 150;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      padding-top: 1.56rem;
+      padding-left: 1.56rem;
+      padding-right: 1.56rem;
+      padding-bottom: 1.56rem;
+      border-radius: 12.5rem;
+      background-color: hsl(261, 73%, 60%);
+      box-shadow: 0px 8px 0px hsl(261deg 73% 55%);
+    }
+    &__choice__spock {
+      top: 25%;
+      z-index: 150;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      padding-top: 1.56rem;
+      padding-left: 1.56rem;
+      padding-right: 1.56rem;
+      padding-bottom: 1.56rem;
+      border-radius: 12.5rem;
+      background-color: hsl(189, 59%, 53%);
+      box-shadow: 0px 8px 0px hsl(189deg 59% 48%);
+    }
+  }
+}
+
+.game__player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+  margin-right: 60px;
+  &__text {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+    margin-top: 2rem;
+  }
+  &__choice__container {
+    border-radius: 12.5rem;
+    box-shadow: inset 0px 7px 0px rgb(0 0 0 / 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 2.88rem;
+    padding-bottom: 2.88rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    img {
+      width: 5rem;
+    }
+  }
+  &__choice__rock {
+    background-color: hsl(349, 70%, 56%);
+    box-shadow: 0px 8px 0px hsl(349deg 71% 52%);
+    margin-top: 5rem;
+    padding-top: 1.56rem;
+    padding-left: 1.56rem;
+    padding-right: 1.56rem;
+    padding-bottom: 1.56rem;
+    border-radius: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+  }
+  &__choice__paper {
+    background-color: hsl(230, 89%, 62%);
+    box-shadow: 0px 8px 0px hsl(230deg 89% 57%);
+    margin-top: 5rem;
+    padding-top: 1.56rem;
+    padding-left: 1.56rem;
+    padding-right: 1.56rem;
+    padding-bottom: 1.56rem;
+    border-radius: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+  }
+  &__choice__scissor {
+    background-color: hsl(39, 89%, 49%);
+    box-shadow: 0px 8px 0px hsl(39deg 89% 44%);
+    margin-top: 5rem;
+    padding-top: 1.56rem;
+    padding-left: 1.56rem;
+    padding-right: 1.56rem;
+    padding-bottom: 1.56rem;
+    border-radius: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+  }
+  &__choice__lizard {
+    background-color: hsl(261, 73%, 60%);
+    box-shadow: 0px 8px 0px hsl(261deg 73% 55%);
+    margin-top: 5rem;
+    padding-top: 1.56rem;
+    padding-left: 1.56rem;
+    padding-right: 1.56rem;
+    padding-bottom: 1.56rem;
+    border-radius: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+  }
+  &__choice__spock {
+    background-color: hsl(189, 59%, 53%);
+    box-shadow: 0px 8px 0px hsl(189deg 59% 48%);
+    margin-top: 5rem;
+    padding-top: 1.56rem;
+    padding-left: 1.56rem;
+    padding-right: 1.56rem;
+    padding-bottom: 1.56rem;
+    border-radius: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+  }
+  &__choice__rock:hover {
+    background-color: hsl(349, 70%, 56%);
+    box-shadow: 0px 8px 0px hsl(349deg 71% 52%);
+    margin-top: 5rem;
+    padding-top: 1.56rem;
+    padding-left: 1.56rem;
+    padding-right: 1.56rem;
+    padding-bottom: 1.56rem;
+    border-radius: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+.game__result {
+  margin-left: 70px;
+  margin-right: 80px;
+  margin-top: 20rem;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  &__text {
+    color: white;
+    font-weight: 700;
+    font-size: 2.6rem;
+    white-space: nowrap;
+    text-align: center;
+  }
+  &__btn {
+    cursor: pointer;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3.6rem;
+    padding-right: 3.6rem;
+    color: hsl(349, 71%, 52%);
+    margin-top: 1.2rem;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    border-radius: 0.625rem;
+    border: none;
+    white-space: nowrap;
+  }
+}
+
+.game__computer__loading {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 8rem;
+  margin-top: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

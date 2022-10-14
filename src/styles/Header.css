@@ -1,0 +1,64 @@
+.header {
+  border-width: 3px;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-color: hsl(217deg, 16%, 45%);
+  width: 50%;
+  border-radius: 0.625rem;
+  margin-top: 2.5rem;
+  position: relative;
+  z-index: 220;
+}
+.header__container__logo {
+  font-weight: 700;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: block;
+}
+.header__container__score__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.header__container__score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 0.625rem;
+  line-height: 2rem;
+  height: 6rem;
+  width: 6rem;
+}
+.player {
+  font-weight: 700;
+
+  color: hsl(229deg, 25%, 31%);
+  padding: 0.5rem;
+}
+.computer {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: hsl(229deg, 25%, 31%);
+  padding: 0.5rem;
+}
+.header__container__score__title {
+  color: hsl(229deg, 64%, 46%);
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+}
+.header__container__score__global {
+  color: hsl(229deg, 25%, 31%);
+  font-size: 3.6rem;
+  margin-top: 0.2rem;
+  font-weight: 700;
+} /*# sourceMappingURL=Header.css.map */
